@@ -1,0 +1,53 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topo {
+    background-color: rgb(91, 136, 138);
+    text-align: center;
+    border: 15px solid rgb(91, 136, 138);
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.topo a {
+    text-decoration: none;
+    display: inline;
+}
+.topo div {
+    position: absolute;
+    right: 5%;
+}
+
+.principal {
+    font-size: 22px;
+    color: black;
+    line-height: 5px;
+    position: absolute;
+    left: 5%;
+    bottom: 5px;
+}
+
+.principal span {
+    color: rgb(255, 230, 4);
+}
+
+.link-topo {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+.sobre {
+    text-align: center;
+}
+
+.sobre .titulo {
+    margin: 30px;
+    padding-top: 120px;
+}
