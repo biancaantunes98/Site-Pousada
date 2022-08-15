@@ -3,52 +3,60 @@ body {
 }
 
 .topo {
-    background-color: rgb(91, 136, 138);
-    border: 15px solid rgb(91, 136, 138);
+    background-color: rgb(7, 156, 144);
+    border: 30px solid rgb(7, 156, 144);
     width: 100%;
-    padding: 15px 0;
+    padding-bottom: 10px;
     position: fixed;
-    top: 0;
     left: 0;
+    top: 0;
 }
 
 .topo a {
     text-decoration: none;
 }
-.topo div {
-    position: absolute;
-    right: 3%;
-}
 
 .principal {
     font-size: 22px;
     color: black;
-    line-height: 5px;
     position: absolute;
-    left: 2%;
-    bottom: 5px;
+    top: -5px;
+    left: -5px;
 }
 
 .principal span {
-    color: rgb(255, 230, 4);
-    padding: 2px;
+    color: rgb(231, 227, 0);
+    padding: 5px;
 }
 
 .link-topo {
+    font-size: 18px;
     color: black;
-    padding: 20px;
-
+    padding: 10px;
 }
 
-.sobre .imagem-fundo {
-    background-image: url('/assets/img-fundo.jpg');
-    width: 100%;
+.links {
+    position: absolute;
+    top: -5px;
+    right: 60px;
 }
 
-.sobre .titulo {
-    margin: 30px;
-    padding-top: 120px;
-    box-shadow: inset;
+.capa {
+    background-image: url('../assets/img-fundo.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    background-color: #0a9077b3;
+    font-size: 20px;
+    border: 1px solid;
+    color: #fff;
+    padding: 60px 80px;
+
 }
 
 .centralizado {
